@@ -17,7 +17,8 @@ myFunction();
 
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: 
 
-
+//The nested function has access to the internal variable because a closure takes place.
+//The nested function is able to look outside of its scope. 
 
 
 
