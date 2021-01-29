@@ -109,8 +109,14 @@ const zooAnimals = [
   Remember the reduce method takes two arguments: a callback (which itself takes two args - the accumulator and the item), and an initial value for the count.
   */
 
-  function USApop(/*Your Code Here*/){
+  function USApop(array){
     /*Your Code Here*/
+    const totalAnimalPop = array.reduce(function(accumulator, item){
+      console.log(`I am the accumulator ${accumulator}`);
+      console.log(`I am the item population ${item.population}`);
+      return accumulator + item.population;
+    }, 0);
+    return totalAnimalPop;
   }
   
   
